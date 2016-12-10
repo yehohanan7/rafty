@@ -1,5 +1,5 @@
 # rafty
-A sample application which uses raft to maintain state
+A sample clustered application which uses raft to maintain state
 
 ## overview
 The application exposes the below http endpoints to maintain a calculator across 3 distributed nodes/peers
