@@ -1,0 +1,9 @@
+:port = 8001
+
+#Get calculator state
+GET http://localhost::port/value
+
+#Add value
+POST http://localhost::port/add
+Content-type: application/json
+{"x": 1}
